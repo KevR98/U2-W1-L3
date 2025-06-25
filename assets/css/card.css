@@ -17,7 +17,7 @@ main {
 }
 
 img {
-  flex-grow: 4;
+  flex-grow: 4; /* Occupo lo spazio più viola grande indicando il grow */
 }
 
 h2 {
@@ -28,7 +28,7 @@ h2 {
   display: flex;
   margin-left: 2em;
   margin-right: 2em;
-  flex-grow: 2;
+  flex-grow: 2; /* Occupo lo spazio viola medio indicando il grow */
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 }
 
 .comment {
-  flex-grow: 1;
+  flex-grow: 1; /* Occupo lo spazio viola più piccolo indicando il grow */
 }
 
 .price {
