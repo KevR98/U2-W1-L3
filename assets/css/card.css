@@ -1,0 +1,57 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 300px; /* Do una larghezza alla card */
+  height: 400px; /* Do una un'altezza alla card */
+  display: flex; /* Rengo la card flessibile */
+  flex-direction: column; /* Li incolonno (allo stato iniziale) */
+  border-radius: 80px; /* Arrotondo i bordi della card */
+  overflow: hidden; /* Nascondo le eventuali sporgenze alla card */
+  background-color: #fbf7e3;
+}
+
+img {
+  flex-grow: 4;
+}
+
+h2 {
+  color: #6b3a25;
+}
+
+.description {
+  display: flex;
+  margin-left: 2em;
+  margin-right: 2em;
+  flex-grow: 2;
+}
+
+p {
+  color: #6f4334;
+}
+
+.comment {
+  flex-grow: 1;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  align-self: center;
+  margin-bottom: 1em;
+  background-color: #f3df85;
+  border-radius: 20px;
+  width: 50%;
+  flex-grow: 1;
+  border: none;
+  height: 30px;
+  color: #6b3a25;
+}
